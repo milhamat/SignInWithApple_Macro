@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		619F7C7163F151DC6402C3F0 /* Pods_SignInWithApple_Macro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5EFA780EA87D111DE3DE3F /* Pods_SignInWithApple_Macro.framework */; };
 		DA370E3C25431E98005E9E1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA370E3B25431E98005E9E1D /* AppDelegate.swift */; };
 		DA370E3E25431E98005E9E1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA370E3D25431E98005E9E1D /* SceneDelegate.swift */; };
-		DA370E4025431E98005E9E1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA370E3F25431E98005E9E1D /* ViewController.swift */; };
-		DA370E4325431E98005E9E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA370E4125431E98005E9E1D /* Main.storyboard */; };
+		DA370E4025431E98005E9E1D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA370E3F25431E98005E9E1D /* MainViewController.swift */; };
 		DA370E4525431E99005E9E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA370E4425431E99005E9E1D /* Assets.xcassets */; };
 		DA370E4825431E99005E9E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA370E4625431E99005E9E1D /* LaunchScreen.storyboard */; };
+		DA370E9425445865005E9E1D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA370E9325445865005E9E1D /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		309E04B7C97A7163EBE5D968 /* Pods-SignInWithApple_Macro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInWithApple_Macro.debug.xcconfig"; path = "Target Support Files/Pods-SignInWithApple_Macro/Pods-SignInWithApple_Macro.debug.xcconfig"; sourceTree = "<group>"; };
+		9E5EFA780EA87D111DE3DE3F /* Pods_SignInWithApple_Macro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignInWithApple_Macro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA370E3825431E98005E9E1D /* SignInWithApple_Macro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInWithApple_Macro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA370E3B25431E98005E9E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA370E3D25431E98005E9E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DA370E3F25431E98005E9E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DA370E4225431E98005E9E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA370E3F25431E98005E9E1D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DA370E4425431E99005E9E1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA370E4725431E99005E9E1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA370E4925431E99005E9E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA370E9325445865005E9E1D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F38A5E15656B1F3F680B5B0B /* Pods-SignInWithApple_Macro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignInWithApple_Macro.release.xcconfig"; path = "Target Support Files/Pods-SignInWithApple_Macro/Pods-SignInWithApple_Macro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619F7C7163F151DC6402C3F0 /* Pods_SignInWithApple_Macro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		952BD4879C55E73E06AAD329 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				309E04B7C97A7163EBE5D968 /* Pods-SignInWithApple_Macro.debug.xcconfig */,
+				F38A5E15656B1F3F680B5B0B /* Pods-SignInWithApple_Macro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA370E2F25431E98005E9E1D = {
 			isa = PBXGroup;
 			children = (
+				DA370E9025445802005E9E1D /* Model */,
+				DA370E8F254457FA005E9E1D /* VIew */,
+				DA370E8E254457F0005E9E1D /* Controller */,
 				DA370E3A25431E98005E9E1D /* SignInWithApple_Macro */,
 				DA370E3925431E98005E9E1D /* Products */,
+				952BD4879C55E73E06AAD329 /* Pods */,
+				E10E68EBB18976C9D8836BEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,42 @@
 			children = (
 				DA370E3B25431E98005E9E1D /* AppDelegate.swift */,
 				DA370E3D25431E98005E9E1D /* SceneDelegate.swift */,
-				DA370E3F25431E98005E9E1D /* ViewController.swift */,
-				DA370E4125431E98005E9E1D /* Main.storyboard */,
 				DA370E4425431E99005E9E1D /* Assets.xcassets */,
 				DA370E4625431E99005E9E1D /* LaunchScreen.storyboard */,
 				DA370E4925431E99005E9E1D /* Info.plist */,
 			);
 			path = SignInWithApple_Macro;
+			sourceTree = "<group>";
+		};
+		DA370E8E254457F0005E9E1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA370E3F25431E98005E9E1D /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA370E8F254457FA005E9E1D /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				DA370E9325445865005E9E1D /* MainView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		DA370E9025445802005E9E1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E10E68EBB18976C9D8836BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E5EFA780EA87D111DE3DE3F /* Pods_SignInWithApple_Macro.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA370E4C25431E99005E9E1D /* Build configuration list for PBXNativeTarget "SignInWithApple_Macro" */;
 			buildPhases = (
+				05A0F5C775F6ECA2918FE86A /* [CP] Check Pods Manifest.lock */,
 				DA370E3425431E98005E9E1D /* Sources */,
 				DA370E3525431E98005E9E1D /* Frameworks */,
 				DA370E3625431E98005E9E1D /* Resources */,
+				7BCE2DF254A7E901DB6B6A77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +176,60 @@
 			files = (
 				DA370E4825431E99005E9E1D /* LaunchScreen.storyboard in Resources */,
 				DA370E4525431E99005E9E1D /* Assets.xcassets in Resources */,
-				DA370E4325431E98005E9E1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A0F5C775F6ECA2918FE86A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignInWithApple_Macro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BCE2DF254A7E901DB6B6A77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignInWithApple_Macro/Pods-SignInWithApple_Macro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignInWithApple_Macro/Pods-SignInWithApple_Macro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignInWithApple_Macro/Pods-SignInWithApple_Macro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA370E3425431E98005E9E1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA370E4025431E98005E9E1D /* ViewController.swift in Sources */,
+				DA370E4025431E98005E9E1D /* MainViewController.swift in Sources */,
+				DA370E9425445865005E9E1D /* MainView.swift in Sources */,
 				DA370E3C25431E98005E9E1D /* AppDelegate.swift in Sources */,
 				DA370E3E25431E98005E9E1D /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +238,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DA370E4125431E98005E9E1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA370E4225431E98005E9E1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DA370E4625431E99005E9E1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +367,7 @@
 		};
 		DA370E4D25431E99005E9E1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309E04B7C97A7163EBE5D968 /* Pods-SignInWithApple_Macro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +387,7 @@
 		};
 		DA370E4E25431E99005E9E1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38A5E15656B1F3F680B5B0B /* Pods-SignInWithApple_Macro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
