@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
         self.navigationController?.isNavigationBarHidden = true
         
     }
-
-
+    
+    
 }
 

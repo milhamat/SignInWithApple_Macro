@@ -42,8 +42,10 @@ class MainView: UIView {
         appleSignInButton.snp.makeConstraints { (make) in
             make.centerX.equalTo(self.safeAreaLayoutGuide)
             make.centerY.equalTo(self.safeAreaLayoutGuide).offset(20)
+            make.left.equalTo(self.safeAreaLayoutGuide).offset(45)
+            make.right.equalTo(self.safeAreaLayoutGuide).offset(-45)
             make.height.equalTo(40)
-            make.width.equalTo(300)
+            
         }
         
         titleLabel.snp.makeConstraints { (make) in
